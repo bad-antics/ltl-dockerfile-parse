@@ -1,0 +1,15 @@
+// ltl-dockerfile-parse/main.ltl
+//
+// Dockerfile parser producing a structured IR.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-dockerfile-parse v0.1.0")
+    io::println("Dockerfile parser producing a structured IR.")
+    0
+}
